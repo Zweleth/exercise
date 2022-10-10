@@ -7,6 +7,7 @@ body {
     font-family: sans-serif;
     color: #222;
     padding-bottom: 50px;
+    overflow: hidden;
 }
 .container {
     max-width: 1200px;
@@ -128,12 +129,13 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom center;
-    z-index: -1;
+    
+
 }
 .popup {
     color:#fff;
     position: absolute;
-    top:30%;
+    top:20%;
     background-color: rgba(34, 34, 34, 0.386);
     left: 35%;
     border-radius: 5px;
@@ -167,4 +169,10 @@ form input {
 }
 .text {
     color: #fff;
+}
+.btn {
+    background: none;
+    color: #fff;
+    font-size: larger;
+    border: none;
 }
